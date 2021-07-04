@@ -1,0 +1,43 @@
+
+js -> arrays: 
+        recorrerlos
+            find
+            findIndex
+            map
+            filter
+            reduce
+            copia/clonación [...vec1]
+    -> estructuras
+        colinación (Objects.assign, JSON)
+
+    -> asincronismo
+
+html 
+
+jsx -> incluir código dentro de html
+
+componentes de react
+    - funcion primaria
+    - siempre tiene un return con la parte visual
+    - imports de paquetes
+    - definir funciones dentro del componente 
+        const functionHelper = () =>{}
+
+    import ....
+    function Component() {
+
+        let hola = "hola"
+        const functionHelper = () =>{}
+
+        return (
+            <>
+            </>
+        )
+    }
+    export ....
+
+Componente contenedor y contenido en react
+- Se basan en la estructuración de árbol de html 
+- con imports
+- la comunicación entre dos componente es a traves de propiedades con el nodo padre de ambos
+- propiedades : variables o eventros
